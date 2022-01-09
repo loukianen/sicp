@@ -55,4 +55,4 @@
 (check-within-tolerance? (sqrt 4000000000000) 2000000 0.001)
 (check-within-tolerance? (original-sqrt 4000000000000) 2000000 0.001)
 
-#| На больших и малых числах получает приемлемую точность вычислений |#
+#| We receive acceptable computational accuracy with high and low numbers |#
