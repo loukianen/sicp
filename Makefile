@@ -5,6 +5,9 @@ install:
 test:
 	raco test sicp
 
+test-new:
+	raco test sicp/new
+
 lint:
 	@echo "check codestyle"
 	@(for f in $$(find sicp -name '*.rkt'); do raco review $$f; done)
